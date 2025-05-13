@@ -13,7 +13,7 @@ const Categories = () => {
                 <h2 className="text-3xl font-semibold">Categories</h2>
                 <button className="btn btn-sm">View All Categories</button>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 space-y-7 p-4 justify-items-center ">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-6 space-y-7 p-4 justify-items-center ">
                 {/* categories - 01  */}
                 <div className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#70824600] to-[#70824631] ">
                     <img src={img01} alt="" className="h-32 w-32 absolute bottom-16" />
