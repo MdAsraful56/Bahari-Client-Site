@@ -9,9 +9,9 @@ import img06 from '../../assets/Images/Categories/Categories (2).png'
 const Categories = () => {
     return (
         <div className='my-5'>
-            <div className="grid grid-cols-2 justify-around gap-4 mb-10">
-                <h2 className="text-2xl">Categories</h2>
-                <button className="btn">View All Categories</button>
+            <div className="grid grid-cols-2 justify-between gap-4 mb-10">
+                <h2 className="text-3xl font-semibold">Categories</h2>
+                <button className="btn btn-sm">View All Categories</button>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 space-y-7 p-4 justify-items-center ">
                 {/* categories - 01  */}
