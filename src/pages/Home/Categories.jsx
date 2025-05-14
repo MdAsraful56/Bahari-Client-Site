@@ -5,6 +5,9 @@ import img03 from '../../assets/Images/Categories/Categories (5).png'
 import img04 from '../../assets/Images/Categories/Categories (3).png'
 import img05 from '../../assets/Images/Categories/Categories (6).png'
 import img06 from '../../assets/Images/Categories/Categories (2).png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Categories = () => {
     return (
@@ -15,32 +18,32 @@ const Categories = () => {
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-6 space-y-7 p-4 justify-items-center ">
                 {/* categories - 01  */}
-                <div className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#70824600] to-[#70824631] ">
+                <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out" className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#70824600] to-[#70824631] ">
                     <img src={img01} alt="" className="h-32 w-32 absolute bottom-16" />
                     <h4 className="text-lg pt-24 text-black font-semibold">Breakfast</h4>
                 </div>
                 {/* categories - 02  */}
-                <div className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#70824600] to-[#6CC63F1A] ">
+                <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out" className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#70824600] to-[#6CC63F1A] ">
                     <img src={img02} alt="" className="h-32 w-32 absolute bottom-16" />
                     <h4 className="text-lg pt-24 text-black font-semibold">Vegan</h4>
                 </div>
                 {/* categories - 03  */}
-                <div className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#cc271b06] to-[#cc271b3b] ">
+                <div data-aos="fade-down-right" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out" className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#cc271b06] to-[#cc271b3b] ">
                     <img src={img03} alt="" className="h-32 w-32 absolute bottom-16" />
                     <h4 className="text-lg pt-24 text-black font-semibold">Meat</h4>
                 </div>
                 {/* categories - 04  */}
-                <div className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#f09c0000] to-[#F09E001A] ">
+                <div data-aos="fade-down-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out" className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#f09c0000] to-[#F09E001A] ">
                     <img src={img04} alt="" className="h-32 w-32 absolute bottom-16" />
                     <h4 className="text-lg pt-24 text-black font-semibold">Dessert</h4>
                 </div>
                 {/* categories - 05  */}
-                <div className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#00000000] to-[#0000000D] ">
+                <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out" className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#00000000] to-[#0000000D] ">
                     <img src={img05} alt="" className="h-32 w-32 absolute bottom-16" />
                     <h4 className="text-lg pt-24 text-black font-semibold">Lunch</h4>
                 </div>
                 {/* categories - 06  */}
-                <div className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#00000000] to-[#ff000018] ">
+                <div data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out" className=" rounded-2xl h-36 w-40 relative flex justify-center bg-linear-to-b/srgb from-[#00000000] to-[#ff000018] ">
                     <img src={img06} alt="" className="h-32 w-32 absolute bottom-16" />
                     <h4 className="text-lg pt-24 text-black font-semibold">Chocolate</h4>
                 </div>
