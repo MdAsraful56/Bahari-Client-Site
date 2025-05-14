@@ -1,0 +1,202 @@
+[
+    {
+        "title": "Big and Juicy Wagyu Beef Cheeseburger",
+        "details": "Succulent Wagyu beef with melted cheese and fresh veggies on a toasted bun.",
+        "image": "https://example.com/images/wagyu-burger.jpg",
+        "time": "30 Minutes",
+        "type": "Snack",
+        "authorImage": "https://example.com/authors/chef-mike.jpg",
+        "name": "Chef Mike",
+        "postDate": "2025-05-01"
+    },
+    {
+        "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+        "details": "Zesty lime roasted salmon fillets with a tangy ginger glaze.",
+        "image": "https://example.com/images/salmon-ginger.jpg",
+        "time": "30 Minutes",
+        "type": "Fish",
+        "authorImage": "https://example.com/authors/chef-lisa.jpg",
+        "name": "Chef Lisa",
+        "postDate": "2025-05-02"
+    },
+    {
+        "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+        "details": "A colorful blend of veggies, chickpeas, and greens with a light mayo dressing.",
+        "image": "https://example.com/images/mayo-salad.jpg",
+        "time": "30 Minutes",
+        "type": "Healthy",
+        "authorImage": "https://example.com/authors/chef-sam.jpg",
+        "name": "Chef Sam",
+        "postDate": "2025-05-03"
+    },
+    {
+        "title": "Chicken Meatballs with Cream Cheese",
+        "details": "Juicy chicken meatballs stuffed with creamy cheese served on greens.",
+        "image": "https://example.com/images/chicken-meatballs.jpg",
+        "time": "30 Minutes",
+        "type": "Meat",
+        "authorImage": "https://example.com/authors/chef-nina.jpg",
+        "name": "Chef Nina",
+        "postDate": "2025-05-04"
+    },
+    {
+        "title": "Spicy Buffalo Chicken Wings",
+        "details": "Crispy chicken wings tossed in a hot and tangy buffalo sauce.",
+        "image": "https://example.com/images/buffalo-wings.jpg",
+        "time": "25 Minutes",
+        "type": "Meat",
+        "authorImage": "https://example.com/authors/chef-jack.jpg",
+        "name": "Chef Jack",
+        "postDate": "2025-05-05"
+    },
+    {
+        "title": "Classic Margherita Pizza",
+        "details": "Stone-baked pizza with tomato sauce, mozzarella, and fresh basil.",
+        "image": "https://example.com/images/margherita-pizza.jpg",
+        "time": "20 Minutes",
+        "type": "Vegetarian",
+        "authorImage": "https://example.com/authors/chef-emily.jpg",
+        "name": "Chef Emily",
+        "postDate": "2025-05-06"
+    },
+    {
+        "title": "Creamy Mushroom Pasta",
+        "details": "Fettuccine tossed in a creamy garlic mushroom sauce.",
+        "image": "https://example.com/images/mushroom-pasta.jpg",
+        "time": "30 Minutes",
+        "type": "Vegetarian",
+        "authorImage": "https://example.com/authors/chef-luke.jpg",
+        "name": "Chef Luke",
+        "postDate": "2025-05-07"
+    },
+    {
+        "title": "Grilled Lemon Herb Chicken",
+        "details": "Chicken grilled with lemon, rosemary, and thyme.",
+        "image": "https://example.com/images/lemon-chicken.jpg",
+        "time": "35 Minutes",
+        "type": "Meat",
+        "authorImage": "https://example.com/authors/chef-kate.jpg",
+        "name": "Chef Kate",
+        "postDate": "2025-05-08"
+    },
+    {
+        "title": "Vegetable Stir-Fry with Soy Garlic Sauce",
+        "details": "Crunchy vegetables stir-fried in soy garlic sauce over rice.",
+        "image": "https://example.com/images/veg-stirfry.jpg",
+        "time": "20 Minutes",
+        "type": "Vegan",
+        "authorImage": "https://example.com/authors/chef-ray.jpg",
+        "name": "Chef Ray",
+        "postDate": "2025-05-09"
+    },
+    {
+        "title": "Avocado Toast with Poached Egg",
+        "details": "Sourdough bread topped with mashed avocado and perfectly poached eggs.",
+        "image": "https://example.com/images/avocado-toast.jpg",
+        "time": "15 Minutes",
+        "type": "Healthy",
+        "authorImage": "https://example.com/authors/chef-ella.jpg",
+        "name": "Chef Ella",
+        "postDate": "2025-05-10"
+    },
+    {
+        "title": "BBQ Pulled Pork Sandwich",
+        "details": "Slow-cooked pork with BBQ sauce served on a brioche bun.",
+        "image": "https://example.com/images/pulled-pork.jpg",
+        "time": "40 Minutes",
+        "type": "Meat",
+        "authorImage": "https://example.com/authors/chef-ryan.jpg",
+        "name": "Chef Ryan",
+        "postDate": "2025-05-11"
+    },
+    {
+        "title": "Thai Green Curry with Tofu",
+        "details": "Spicy coconut curry with tofu, vegetables, and jasmine rice.",
+        "image": "https://example.com/images/thai-green-curry.jpg",
+        "time": "30 Minutes",
+        "type": "Vegan",
+        "authorImage": "https://example.com/authors/chef-anna.jpg",
+        "name": "Chef Anna",
+        "postDate": "2025-05-12"
+    },
+    {
+        "title": "Grilled Veggie Panini",
+        "details": "Toasted panini with grilled vegetables, pesto, and mozzarella.",
+        "image": "https://example.com/images/veggie-panini.jpg",
+        "time": "25 Minutes",
+        "type": "Vegetarian",
+        "authorImage": "https://example.com/authors/chef-mario.jpg",
+        "name": "Chef Mario",
+        "postDate": "2025-05-13"
+    },
+    {
+        "title": "Chili Garlic Noodles",
+        "details": "Spicy noodles tossed with garlic, chili, and spring onions.",
+        "image": "https://example.com/images/chili-noodles.jpg",
+        "time": "20 Minutes",
+        "type": "Snack",
+        "authorImage": "https://example.com/authors/chef-lara.jpg",
+        "name": "Chef Lara",
+        "postDate": "2025-05-14"
+    },
+    {
+        "title": "Beef Tacos with Salsa Verde",
+        "details": "Spiced beef tacos topped with salsa verde and fresh cilantro.",
+        "image": "https://example.com/images/beef-tacos.jpg",
+        "time": "25 Minutes",
+        "type": "Meat",
+        "authorImage": "https://example.com/authors/chef-carlos.jpg",
+        "name": "Chef Carlos",
+        "postDate": "2025-05-15"
+    },
+    {
+        "title": "Stuffed Bell Peppers with Rice and Beans",
+        "details": "Baked bell peppers filled with seasoned rice and beans.",
+        "image": "https://example.com/images/stuffed-peppers.jpg",
+        "time": "35 Minutes",
+        "type": "Vegan",
+        "authorImage": "https://example.com/authors/chef-sophia.jpg",
+        "name": "Chef Sophia",
+        "postDate": "2025-05-16"
+    },
+    {
+        "title": "Classic Caesar Salad",
+        "details": "Romaine lettuce, parmesan, and croutons in Caesar dressing.",
+        "image": "https://example.com/images/caesar-salad.jpg",
+        "time": "15 Minutes",
+        "type": "Healthy",
+        "authorImage": "https://example.com/authors/chef-tom.jpg",
+        "name": "Chef Tom",
+        "postDate": "2025-05-17"
+    },
+    {
+        "title": "Baked Mac and Cheese",
+        "details": "Rich and creamy macaroni baked with cheese and breadcrumbs.",
+        "image": "https://example.com/images/mac-cheese.jpg",
+        "time": "30 Minutes",
+        "type": "Snack",
+        "authorImage": "https://example.com/authors/chef-julia.jpg",
+        "name": "Chef Julia",
+        "postDate": "2025-05-18"
+    },
+    {
+        "title": "Teriyaki Glazed Chicken Rice Bowl",
+        "details": "Grilled chicken glazed with teriyaki sauce over jasmine rice.",
+        "image": "https://example.com/images/teriyaki-bowl.jpg",
+        "time": "25 Minutes",
+        "type": "Meat",
+        "authorImage": "https://example.com/authors/chef-kevin.jpg",
+        "name": "Chef Kevin",
+        "postDate": "2025-05-19"
+    },
+    {
+        "title": "Vegan Chocolate Avocado Mousse",
+        "details": "Smooth, creamy, and totally dairy-free dessert.",
+        "image": "https://example.com/images/avocado-mousse.jpg",
+        "time": "15 Minutes",
+        "type": "Vegan",
+        "authorImage": "https://example.com/authors/chef-nora.jpg",
+        "name": "Chef Nora",
+        "postDate": "2025-05-20"
+    }
+]

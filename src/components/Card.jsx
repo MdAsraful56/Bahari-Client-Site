@@ -4,7 +4,10 @@ import { GiSelfLove } from 'react-icons/gi';
 import { IoIosTime } from "react-icons/io";
 import { PiForkKnifeFill } from 'react-icons/pi';
 
-const Card = () => {
+const Card = ({fd}) => {
+
+
+    const {title, } = fd;
 
     const coloers = 'red'
 
@@ -18,7 +21,7 @@ const Card = () => {
                 </figure>
                 {coloers === 'red' ? <FaHeart className='absolute right-5 top-5' size={20} color='red' /> : <FaHeart className='absolute right-5 top-5' size={20}  /> }
                 <div className="card-body">
-                    <h2 className="card-title">Card Title</h2>
+                    <h2 className="card-title">{title}</h2>
                     <div className="card-actions">
                         <section className="flex flex-row gap-1 items-center ">
                             <IoIosTime size={20} /> <span className="">30 Minutes</span>
