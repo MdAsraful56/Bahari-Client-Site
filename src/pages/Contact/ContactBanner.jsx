@@ -3,7 +3,7 @@ import img from '../../assets/Images/contactImg.png';
 
 const ContactBanner = () => {
     return (
-        <div className="px-4 py-8 max-w-7xl mx-auto">
+        <div className="px-4 py-8 max-w-7xl mx-auto mb-20">
             <h2 className="text-3xl text-center font-semibold">Contact Us</h2>
 
             <section className="flex flex-col lg:flex-row items-center gap-6 mt-10">
@@ -43,7 +43,7 @@ const ContactBanner = () => {
 
                 </div>
             </section>
-            <div className="text-center pt-4">
+            <div className="text-center pt-4 mt-5">
                 <button className="btn btn-lg bg-black text-white py-4 px-8 text-sm rounded-xl">Submit</button>
             </div>
         </div>

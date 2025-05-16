@@ -13,7 +13,7 @@ const Card = ({food}) => {
 
     return (
         <div className='my-20'>
-            <div className="card bg-[#E7F9FD] w-96 shadow-sm p-3 relative">
+            <div className="card bg-[#E7F9FD] shadow-sm p-3 relative">
                 <figure>
                     <img
                     src={image}
