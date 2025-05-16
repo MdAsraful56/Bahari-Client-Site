@@ -16,8 +16,6 @@ const Home = () => {
             <FoodCardHome />
             <Baner02 />
 
-            <Card />
-
             <Banner />
         </div>
     );

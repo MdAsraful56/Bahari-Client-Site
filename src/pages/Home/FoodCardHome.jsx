@@ -3,19 +3,30 @@ import Card from '../../components/Card';
 
 const FoodCardHome = () => {
 
-    const [food, setFood] = useState({})
+    const [foods, setFoods] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect( () => {
-        fetch('/food.json')
-        .then(res => res.json())
-        .then(data => setFood(data))
-    } ,[])
-    // console.log(food)
+        fetch('../../../public/food.json')
+            .then(response => response.json())
+            .then(data => {
+                setFoods(data);
+                setLoading(false);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                setLoading(false);
+            });
+    }, [])
 
     return (
         <div>
             {
-                food.map((fd, index) => <Card key={index} fd={fd} />)
+                loading ? (
+                    <p>Loading...</p>
+                ) : (
+                    foods.map((food, index) => <Card key={index} food={food} />)
+                )
             }
         </div>
     );
