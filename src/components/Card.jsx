@@ -9,17 +9,16 @@ const Card = ({food}) => {
 
     const {title, image, type, time } = food;
 
-    const coloers = 'red'
 
     return (
-        <div className='my-20'>
+        <div className=''>
             <div className="card bg-[#E7F9FD] shadow-sm p-3 relative">
                 <figure>
                     <img
                     src={image}
-                    alt="foodItem Image" className='rounded-xl' />
+                    alt="foodItem Image" className='rounded-xl w-96 h-72' />
                 </figure>
-                {coloers === 'red' ? <FaHeart className='absolute right-5 top-5' size={20} color='red' /> : <FaHeart className='absolute right-5 top-5' size={20}  /> }
+                {/* {coloers === 'red' ? <FaHeart className='absolute right-5 top-5' size={20} color='red' /> : <FaHeart className='absolute right-5 top-5' size={20}  /> } */}
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
                     <div className="card-actions">

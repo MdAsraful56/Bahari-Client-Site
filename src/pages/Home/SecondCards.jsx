@@ -20,8 +20,8 @@ const SecondCards = () => {
         }, [])
 
     return (
-        <div>
-            <section className="flex flex-row gap-5">
+        <div className='my-10'>
+            <section className="flex flex-row gap-5 my-10">
                 <h2 className="text-3xl lg:w-1/2 w-full">Try this delicious recipe to make your day</h2>
                 <p className="lg:w-1/2 w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsam illo harum aut corrupti optio porro tempore ex consequuntur officiis!</p>
             </section>
